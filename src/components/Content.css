@@ -1,8 +1,5 @@
 
 .content{
-    display:flex;
-    justify-content:space-between;
-    position:relative;
 
  
 }
@@ -133,5 +130,35 @@ img{
 
     .contentLeft{
         padding-left:30px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+
+    .smallerImage{
+        height:80px;
+        width:80px;
+    }
+
+    .box{
+        font-size:20px;
+       
+        
+    }
+    
+    .box p{
+        line-height:30px;
+        padding-left:40px;
+    }
+
+    .box h1,h3{
+        padding-left:40px;
+
+    }
+
+    .grid{
+        display:grid;
+        grid-template-columns:repeat(1,1fr);
     }
 }

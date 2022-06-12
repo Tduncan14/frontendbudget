@@ -44,3 +44,30 @@ button{
     
     
 }
+
+
+
+@media only screen and (max-width: 600px){
+
+    .header{
+        display:flex;
+        justify-content: space-between;
+        padding:25px 55px;
+        margin-bottom:100px;
+      
+    }
+
+
+    .img{
+        top:300px;
+        right:35px;
+        width:auto;
+        height:40px;   
+    }
+
+
+
+    .img .smallerImage{
+        width:100% !important;
+    }
+}

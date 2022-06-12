@@ -10,6 +10,12 @@
 
 
 
+button{
+  border-radius:50px;
+  height:45px;
+}
+
+
 html{
   overflow-x: hidden;
 }
@@ -18,8 +24,10 @@ html{
 @media (max-width:768px){
 
   button{
-    width:150px;
-    padding:20px;
-    border-radius:15px;
+    width:180px;
+    padding:20px 20px;
+    border-radius:55px;
+
+  
   }
 }
