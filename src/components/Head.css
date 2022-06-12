@@ -1,0 +1,46 @@
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding:25px 170px;
+    margin-bottom:100px;
+  
+}
+
+
+button{
+    padding:10px;
+    border-radius:20px;
+    color:white;
+    width:130px;
+    background-color:#47495e;
+    border:none;
+    position:relative;
+}
+
+.img{
+        position:absolute;
+        top:-150px;
+        right:-220px;
+        
+    }
+
+
+@media screen and (max-width:768px){
+
+    .header{
+        padding-left:50px;
+        padding-right:50px;
+    }
+
+    .img img{
+        position:absolute;
+        top:120px;
+        right:-80px;
+        height:650px;
+        width:650px;
+    }
+    
+    
+}

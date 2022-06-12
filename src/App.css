@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: none;
+  background-image: linear-gradient(  top, #ffffff, #fdfdfd, #fafafa, #f8f8f8, #f6f6f6);
+
+}
+
+
+
+
+html{
+  overflow-x: hidden;
+}
+
+
+@media (max-width:768px){
+
+  button{
+    width:150px;
+    padding:20px;
+    border-radius:15px;
+  }
+}
