@@ -5,31 +5,42 @@ import'./Head.css'
 
 const Header = () => {
 
-    const [image,setImage] = useState('/assets/image-hero-desktop.png')
+    // const [widths,setWidth] = useState(window.innerWidth);
+    const [image ,setImage] = useState('/assets/image-hero-desktop.png');
 
-
-    const width = 768
+    // const width = 768
   
     
     
     console.log(window.innerWidth,'width')
 
 
-    useEffect(()=>{
+    // useEffect(()=>{
 
+    //     setWidth(window.innerWidth)
    
 
-        if(parseInt(window.innerWidth) < width){
-             setImage('/assets/image-hero-mobile.png')
-        }
+    //     changeImage()
 
-        if(parseInt(window.innerWidth) > width) {
-            
-           setImage( '/assets/image-hero-desktop.png') 
-        }
+    
 
-    },[image])
+    // },[image,widths])
 
+
+
+
+    // const changeImage = () => {
+
+    //     if(parseInt(widths) < width){
+    //         setImage('/assets/image-hero-mobile.png')
+    //    }
+
+    //    if(parseInt(widths) > width) {
+           
+    //       setImage( '/assets/image-hero-desktop.png') 
+    //    }
+
+    // }
 
 
 

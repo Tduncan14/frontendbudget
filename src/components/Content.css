@@ -161,4 +161,12 @@ img{
         display:grid;
         grid-template-columns:repeat(1,1fr);
     }
+
+
+    .contentLeft{
+        margin-right:auto;
+        margin-left:auto;
+        text-align:center;
+        padding-left:8.5rem;
+    }
 }
